@@ -1,2 +1,16 @@
 # SPH-Smoothed-Particle-Hydrodynamics-Method
-A short report presenting research concerning a modeling method used in mechanical engineering. Problems with more than one material are often trivial for the SPH method because each material is described by its own set of particles. In addition to that, SPH can be used for many types of simulation such as huge deformation simulation, penetration simulation, machining simulation because, unlike the Finite Element method, the elements (particles) of the SPH method can be separated. This method is also used for fluid and astrophysics simulations. Unlike the Eulerian method, SPH allows having mass conservation and pressures without extra computation. The masses are contained in each particle and the pressures are given by the mathematical link between neighboring particles instead of solving linear equations. Besides, for Eulerian simulation method, we need boundary conditions which may be unknown (like stars), a problem that the SPH method does not have. However, the perfect simulation method does not exist. The SPH method still have some drawbacks, the computing time, the consistence at the boundaries (one of the issues we solved in this paper), the tensile instability and the spurious energy mode. This project is about performing researches about the SPH method, learning how it works mathematically speaking and give the mathematical parameters expressions in order to be able to run a simulation afterwards.
+ 
+This project is about learning how the Smoothed Particle Hydrodynamics method (SPH) - a modeling method used in mechanical engineering - works in order to run a simulation. <br/>
+Unlike the Finite Element Method (FEM), the particles used in the SPH method can be separated, and can therefore be used for many types of simulation that the Eulerian method cannot solve: 
+* System enduring huge deformation
+* Penetration
+* Astrophysics
+* Systems having more than one material (such as two fluids mixing)
+* Machining
+* etc. 
+
+ 
+Instead of solving linear equations like the Eulerian method, the SPH method allows having mass conservation and pressures without extra computation. <br/>
+The masses are contained in each particle and the pressures are given by the mathematical link between neighboring particles. <br/>
+Besides, boundary conditions are required for the Eulerian method which may be unknown for some systems (like for stars in astrophysics). This is a problem that the SPH method does not have. <br/>
+However, the SPH method still has some drawbacks such as computing time, consistence at the boundaries (studied in this paper), tensile instability, and spurious energy mode. <br/> 
