@@ -1,6 +1,5 @@
 # SPH-Smoothed-Particle-Hydrodynamics-Method
  
-This project is about learning how the Smoothed Particle Hydrodynamics method (SPH) - a modeling method used in mechanical engineering - works in order to run a simulation. <br/>
 Unlike the Finite Element Method (FEM), the particles used in the SPH method can be separated, and can therefore be used for many types of simulation that the Eulerian method cannot solve: 
 * System enduring huge deformation
 * Penetration
